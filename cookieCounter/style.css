@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  width: 70vw;
+  height: 70vw;
+  display: flex;
+  flex-flow: column wrap;
+
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+}
+
+
+
+#belowTitle {
+  width: 30vw;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+}
+
+#cookieImage {
+  width: 30vw;
+  height: 30vw;
+  flex: 1;
+}
+
+#counter {
+  width 30vw;
+  height 30vw;
+  flex: 1;
+  font-size: 30vw;
+}
