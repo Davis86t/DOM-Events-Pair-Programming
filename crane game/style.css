@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#craneBox {
+    margin: auto;
+    display: flex;
+    width: 70vw;
+    height: 70vw;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: flex;
+    position: relative;
+    width: 10vw;
+}
+
+#buttons {
+    width: 35vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#right {
+    margin: auto;
+}
+
+#left {
+    margin: auto;
+}
+
+#up {
+    margin: auto;
+}
+
+#down {
+    margin: auto;
+}
